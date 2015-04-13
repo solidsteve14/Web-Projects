@@ -1,0 +1,107 @@
+article, aside, figure, footer, header, nav, section {
+    display: block;
+}
+
+body  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 800px;
+	background-color: white;
+	margin: 0 auto; 
+	padding: 0;
+	border: 3px solid black;
+	box-shadow: 0 9px 18px 9px;
+}
+h1, h2, p {
+	margin: 0;
+	padding: 0;
+}
+
+/* Header */
+header { 
+	background: #99CC99;
+    background-image: -moz-linear-gradient(45deg, white 0%, gray 75%, black 100%);
+} 
+hgroup {
+	padding-top: 15px;
+}
+
+header h1 {
+	font-size: 250%;
+}
+header h2 {
+	font-size: 125%;
+	padding-bottom: 15px;
+}
+/* Navigation bar */
+nav {
+	margin: 0;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: .25em 0;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black; 
+}
+nav li {
+    display: inline;
+    padding: 0 .9em 0 .5em;
+    border-right: 2px solid black;
+}
+nav a {
+    font-weight: bold;
+    color: black;
+}
+nav a.current { 
+	text-decoration: none;
+}
+nav a:link, nav a:visited { 
+    color: black; 
+}
+nav a:hover, nav a:focus { 
+    color: green;
+	text-decoration: underline;
+}
+
+
+/* Section */
+section {
+	width: 560px;
+	padding: 20px 60px 30px 0; 
+	float: right;
+}
+section h1 { 
+	font-size: 150%;
+	margin-bottom: .5em;
+}
+section h1:first-letter { 
+	font-size: 250%;
+}
+section h2 {
+	font-size: 125%;
+	margin: .8em 0 .5em 0;
+}
+section p {
+	margin-bottom: .5em;
+}
+section a {
+	font-weight: bold;
+	color: #669966;
+}
+section a:link, section a:visited { 
+    color: #669966; 
+}
+section a:hover, section a:focus { 
+    color: #669966;
+}
+/* Footer */
+footer { 
+	clear: both;
+	border-top: 2px solid black;
+	padding: 15px;
+} 
+footer p {
+	font-size: 90%;
+	text-align: center;
+}
